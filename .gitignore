@@ -1,0 +1,19 @@
+# Build and compiler artifacts
+**/[Bb]in/
+**/[Oo]bj/
+[Rr]elease/
+
+# Visual Studio & IDE files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and temp
+*.log
+*.tmp
+TestResults/
+
+# Do NOT ignore the built release executable if placed at root
+!/Froststrap.exe

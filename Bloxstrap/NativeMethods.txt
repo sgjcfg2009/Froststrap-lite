@@ -1,0 +1,15 @@
+SendMessage
+SetWindowPos
+FindWindow
+FindWindowEx
+GetWindowThreadProcessId
+OpenProcess
+CloseHandle
+EnumWindows
+GetWindowText
+GetClassName
+FlashWindow
+FlashWindowEx
+SetForegroundWindow
+ShowWindow
+PostMessage

@@ -1,0 +1,3413 @@
+﻿ 
+namespace Bloxstrap.Resources {
+    using System;
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    public class Strings {
+        private static global::System.Resources.ResourceManager resourceMan;
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Strings() {
+        }
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        public static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Bloxstrap.Resources.Strings", typeof(Strings).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        public static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+        public static string About_Licenses_Title {
+            get {
+                return ResourceManager.GetString("About.Licenses.Title", resourceCulture);
+            }
+        }
+        public static string About_Supporters_Description {
+            get {
+                return ResourceManager.GetString("About.Supporters.Description", resourceCulture);
+            }
+        }
+        public static string About_Supporters_Monthly {
+            get {
+                return ResourceManager.GetString("About.Supporters.Monthly", resourceCulture);
+            }
+        }
+        public static string About_Supporters_OneOff {
+            get {
+                return ResourceManager.GetString("About.Supporters.OneOff", resourceCulture);
+            }
+        }
+        public static string About_Supporters_Title {
+            get {
+                return ResourceManager.GetString("About.Supporters.Title", resourceCulture);
+            }
+        }
+        public static string About_Title {
+            get {
+                return ResourceManager.GetString("About.Title", resourceCulture);
+            }
+        }
+        public static string About_Translators_Description {
+            get {
+                return ResourceManager.GetString("About.Translators.Description", resourceCulture);
+            }
+        }
+        public static string About_Translators_Title {
+            get {
+                return ResourceManager.GetString("About.Translators.Title", resourceCulture);
+            }
+        }
+        public static string ActivityWatcher_LocationQueryFailed {
+            get {
+                return ResourceManager.GetString("ActivityWatcher.LocationQueryFailed", resourceCulture);
+            }
+        }
+        public static string ActivityWatcher_RichPresenceLoadFailed {
+            get {
+                return ResourceManager.GetString("ActivityWatcher.RichPresenceLoadFailed", resourceCulture);
+            }
+        }
+        public static string App_OSDeprecation_Win7_81 {
+            get {
+                return ResourceManager.GetString("App.OSDeprecation.Win7_81", resourceCulture);
+            }
+        }
+        public static string Boostrapper_Dialog_UnauthorizedChannel {
+            get {
+                return ResourceManager.GetString("Boostrapper.Dialog.UnauthorizedChannel", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_AutoUpdateFailed {
+            get {
+                return ResourceManager.GetString("Bootstrapper.AutoUpdateFailed", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Bootstrapper_Dialog_PromptChannelChange {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Bootstrapper.Dialog.PromptChannelChange", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_ConfirmLaunch {
+            get {
+                return ResourceManager.GetString("Bootstrapper.ConfirmLaunch", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Dialog_ChannelOutOfDate {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Dialog.ChannelOutOfDate", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Dialog_NoUpgradeWithoutClient {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Dialog.NoUpgradeWithoutClient", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_ExtractionFailed_Message {
+            get {
+                return ResourceManager.GetString("Bootstrapper.ExtractionFailed.Message", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_ExtractionFailed_Title {
+            get {
+                return ResourceManager.GetString("Bootstrapper.ExtractionFailed.Title", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_FilesInUse {
+            get {
+                return ResourceManager.GetString("Bootstrapper.FilesInUse", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_FirstRunUninstall {
+            get {
+                return ResourceManager.GetString("Bootstrapper.FirstRunUninstall", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_JsonManagerSaveFailed {
+            get {
+                return ResourceManager.GetString("Bootstrapper.JsonManagerSaveFailed", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_ModificationsFailed_Message {
+            get {
+                return ResourceManager.GetString("Bootstrapper.ModificationsFailed.Message", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_ModificationsFailed_Title {
+            get {
+                return ResourceManager.GetString("Bootstrapper.ModificationsFailed.Title", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_NotEnoughSpace {
+            get {
+                return ResourceManager.GetString("Bootstrapper.NotEnoughSpace", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_ApplyingModifications {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.ApplyingModifications", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_CancelUpgrade {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.CancelUpgrade", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_Configuring {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.Configuring", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_Connecting {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.Connecting", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_Downloading {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.Downloading", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_Installing {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.Installing", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_InstallingWebView2 {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.InstallingWebView2", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_Starting {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.Starting", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_Upgrading {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.Upgrading", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_UpgradingBloxstrap {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.UpgradingBloxstrap", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_WaitingForData {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.WaitingForData", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Status_WaitingOtherInstances {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Status.WaitingOtherInstances", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_StylePreview_ImageCancel {
+            get {
+                return ResourceManager.GetString("Bootstrapper.StylePreview.ImageCancel", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_StylePreview_TextCancel {
+            get {
+                return ResourceManager.GetString("Bootstrapper.StylePreview.TextCancel", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_SuccessfullyUninstalled {
+            get {
+                return ResourceManager.GetString("Bootstrapper.SuccessfullyUninstalled", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_Uninstall_RobloxRunning {
+            get {
+                return ResourceManager.GetString("Bootstrapper.Uninstall.RobloxRunning", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_WebView2NotFound {
+            get {
+                return ResourceManager.GetString("Bootstrapper.WebView2NotFound", resourceCulture);
+            }
+        }
+        public static string Bootstrapper_WMFNotFound {
+            get {
+                return ResourceManager.GetString("Bootstrapper.WMFNotFound", resourceCulture);
+            }
+        }
+        public static string Common_AddSingle {
+            get {
+                return ResourceManager.GetString("Common.AddSingle", resourceCulture);
+            }
+        }
+        public static string Common_Analytics {
+            get {
+                return ResourceManager.GetString("Common.Analytics", resourceCulture);
+            }
+        }
+        public static string Common_Automatic {
+            get {
+                return ResourceManager.GetString("Common.Automatic", resourceCulture);
+            }
+        }
+        public static string Common_Browse {
+            get {
+                return ResourceManager.GetString("Common.Browse", resourceCulture);
+            }
+        }
+        public static string Common_Cancel {
+            get {
+                return ResourceManager.GetString("Common.Cancel", resourceCulture);
+            }
+        }
+        public static string Common_Channel {
+            get {
+                return ResourceManager.GetString("Common.Channel", resourceCulture);
+            }
+        }
+        public static string Common_Choose {
+            get {
+                return ResourceManager.GetString("Common.Choose", resourceCulture);
+            }
+        }
+        public static string Common_Close {
+            get {
+                return ResourceManager.GetString("Common.Close", resourceCulture);
+            }
+        }
+        public static string Common_Color {
+            get {
+                return ResourceManager.GetString("Common.Color", resourceCulture);
+            }
+        }
+        public static string Common_CopyAll {
+            get {
+                return ResourceManager.GetString("Common.CopyAll", resourceCulture);
+            }
+        }
+        public static string Common_CreateNew {
+            get {
+                return ResourceManager.GetString("Common.CreateNew", resourceCulture);
+            }
+        }
+        public static string Common_Custom {
+            get {
+                return ResourceManager.GetString("Common.Custom", resourceCulture);
+            }
+        }
+        public static string Common_Debug {
+            get {
+                return ResourceManager.GetString("Common.Debug", resourceCulture);
+            }
+        }
+        public static string Common_DebugMenu {
+            get {
+                return ResourceManager.GetString("Common.DebugMenu", resourceCulture);
+            }
+        }
+        public static string Common_Default {
+            get {
+                return ResourceManager.GetString("Common.Default", resourceCulture);
+            }
+        }
+        public static string Common_Delete {
+            get {
+                return ResourceManager.GetString("Common.Delete", resourceCulture);
+            }
+        }
+        public static string Common_DeleteAll {
+            get {
+                return ResourceManager.GetString("Common.DeleteAll", resourceCulture);
+            }
+        }
+        public static string Common_Deployment {
+            get {
+                return ResourceManager.GetString("Common.Deployment", resourceCulture);
+            }
+        }
+        public static string Common_Disabled {
+            get {
+                return ResourceManager.GetString("Common.Disabled", resourceCulture);
+            }
+        }
+        public static string Common_DiscordRichPresence {
+            get {
+                return ResourceManager.GetString("Common.DiscordRichPresence", resourceCulture);
+            }
+        }
+        public static string Common_Edit {
+            get {
+                return ResourceManager.GetString("Common.Edit", resourceCulture);
+            }
+        }
+        public static string Common_Experimental {
+            get {
+                return ResourceManager.GetString("Common.Experimental", resourceCulture);
+            }
+        }
+        public static string Common_Export {
+            get {
+                return ResourceManager.GetString("Common.Export", resourceCulture);
+            }
+        }
+        public static string Common_FastFlags {
+            get {
+                return ResourceManager.GetString("Common_FastFlags", resourceCulture);
+            }
+        }
+        public static string Common_FilterType {
+            get {
+                return ResourceManager.GetString("Common.FilterType", resourceCulture);
+            }
+        }
+        public static string Common_Help {
+            get {
+                return ResourceManager.GetString("Common.Help", resourceCulture);
+            }
+        }
+        public static string Common_Import {
+            get {
+                return ResourceManager.GetString("Common.Import", resourceCulture);
+            }
+        }
+        public static string Common_ImportFromFile {
+            get {
+                return ResourceManager.GetString("Common.ImportFromFile", resourceCulture);
+            }
+        }
+        public static string Common_ImportJson {
+            get {
+                return ResourceManager.GetString("Common.ImportJson", resourceCulture);
+            }
+        }
+        public static string Common_LauncherType {
+            get {
+                return ResourceManager.GetString("Common.LauncherType", resourceCulture);
+            }
+        }
+        public static string Common_Loading {
+            get {
+                return ResourceManager.GetString("Common.Loading", resourceCulture);
+            }
+        }
+        public static string Common_LookingFor {
+            get {
+                return ResourceManager.GetString("Common.LookingFor", resourceCulture);
+            }
+        }
+        public static string Common_Message {
+            get {
+                return ResourceManager.GetString("Common.Message", resourceCulture);
+            }
+        }
+        public static string Common_Miscellaneous {
+            get {
+                return ResourceManager.GetString("Common.Miscellaneous", resourceCulture);
+            }
+        }
+        public static string Common_ModType {
+            get {
+                return ResourceManager.GetString("Common.ModType", resourceCulture);
+            }
+        }
+        public static string Common_Name {
+            get {
+                return ResourceManager.GetString("Common.Name", resourceCulture);
+            }
+        }
+        public static string Common_Navigation_Back {
+            get {
+                return ResourceManager.GetString("Common.Navigation.Back", resourceCulture);
+            }
+        }
+        public static string Common_Navigation_Install {
+            get {
+                return ResourceManager.GetString("Common.Navigation.Install", resourceCulture);
+            }
+        }
+        public static string Common_Navigation_Next {
+            get {
+                return ResourceManager.GetString("Common.Navigation.Next", resourceCulture);
+            }
+        }
+        public static string Common_NetworkError {
+            get {
+                return ResourceManager.GetString("Common.NetworkError", resourceCulture);
+            }
+        }
+        public static string Common_New {
+            get {
+                return ResourceManager.GetString("Common.New", resourceCulture);
+            }
+        }
+        public static string Common_No {
+            get {
+                return ResourceManager.GetString("Common.No", resourceCulture);
+            }
+        }
+        public static string Common_NotAvailable {
+            get {
+                return ResourceManager.GetString("Common.NotAvailable", resourceCulture);
+            }
+        }
+        public static string Common_OK {
+            get {
+                return ResourceManager.GetString("Common.OK", resourceCulture);
+            }
+        }
+        public static string Common_OpenDebugMenu {
+            get {
+                return ResourceManager.GetString("Common.OpenDebugMenu", resourceCulture);
+            }
+        }
+        public static string Common_OpenLogFile {
+            get {
+                return ResourceManager.GetString("Common.OpenLogFile", resourceCulture);
+            }
+        }
+        public static string Common_Performance {
+            get {
+                return ResourceManager.GetString("Common.Performance", resourceCulture);
+            }
+        }
+        public static string Common_PresetFlagLists {
+            get {
+                return ResourceManager.GetString("Common.PresetFlagLists", resourceCulture);
+            }
+        }
+        public static string Common_Presets {
+            get {
+                return ResourceManager.GetString("Common.Presets", resourceCulture);
+            }
+        }
+        public static string Common_Profiles {
+            get {
+                return ResourceManager.GetString("Common.Profiles", resourceCulture);
+            }
+        }
+        public static string Common_Quality {
+            get {
+                return ResourceManager.GetString("Common.Quality", resourceCulture);
+            }
+        }
+        public static string Common_Recommended {
+            get {
+                return ResourceManager.GetString("Common.Recommended", resourceCulture);
+            }
+        }
+        public static string Common_Refresh {
+            get {
+                return ResourceManager.GetString("Common.Refresh", resourceCulture);
+            }
+        }
+        public static string Common_Remove {
+            get {
+                return ResourceManager.GetString("Common.Remove", resourceCulture);
+            }
+        }
+        public static string Common_Rename {
+            get {
+                return ResourceManager.GetString("Common.Rename", resourceCulture);
+            }
+        }
+        public static string Common_Reset {
+            get {
+                return ResourceManager.GetString("Common.Reset", resourceCulture);
+            }
+        }
+        public static string Common_RobloxNotInstalled {
+            get {
+                return ResourceManager.GetString("Common.RobloxNotInstalled", resourceCulture);
+            }
+        }
+        public static string Common_RobloxStudio {
+            get {
+                return ResourceManager.GetString("Common.RobloxStudio", resourceCulture);
+            }
+        }
+        public static string Common_Search {
+            get {
+                return ResourceManager.GetString("Common.Search", resourceCulture);
+            }
+        }
+        public static string Common_SearchBy {
+            get {
+                return ResourceManager.GetString("Common.SearchBy", resourceCulture);
+            }
+        }
+        public static string Common_Settings {
+            get {
+                return ResourceManager.GetString("Common.Settings", resourceCulture);
+            }
+        }
+        public static string Common_Shortcuts {
+            get {
+                return ResourceManager.GetString("Common.Shortcuts", resourceCulture);
+            }
+        }
+        public static string Common_Shortcuts_Desktop {
+            get {
+                return ResourceManager.GetString("Common.Shortcuts.Desktop", resourceCulture);
+            }
+        }
+        public static string Common_Shortcuts_StartMenu {
+            get {
+                return ResourceManager.GetString("Common.Shortcuts.StartMenu", resourceCulture);
+            }
+        }
+        public static string Common_Studio {
+            get {
+                return ResourceManager.GetString("Common.Studio", resourceCulture);
+            }
+        }
+        public static string Common_SystemDefault {
+            get {
+                return ResourceManager.GetString("Common.SystemDefault", resourceCulture);
+            }
+        }
+        public static string Common_Template {
+            get {
+                return ResourceManager.GetString("Common.Template", resourceCulture);
+            }
+        }
+        public static string Common_Time {
+            get {
+                return ResourceManager.GetString("Common.Time", resourceCulture);
+            }
+        }
+        public static string Common_Timestamp {
+            get {
+                return ResourceManager.GetString("Common.Timestamp", resourceCulture);
+            }
+        }
+        public static string Common_Type {
+            get {
+                return ResourceManager.GetString("Common.Type", resourceCulture);
+            }
+        }
+        public static string Common_UnknownStatus {
+            get {
+                return ResourceManager.GetString("Common.UnknownStatus", resourceCulture);
+            }
+        }
+        public static string Common_UserId {
+            get {
+                return ResourceManager.GetString("Common.UserId", resourceCulture);
+            }
+        }
+        public static string Common_Username {
+            get {
+                return ResourceManager.GetString("Common.Username", resourceCulture);
+            }
+        }
+        public static string Common_Value {
+            get {
+                return ResourceManager.GetString("Common.Value", resourceCulture);
+            }
+        }
+        public static string Common_Version {
+            get {
+                return ResourceManager.GetString("Common.Version", resourceCulture);
+            }
+        }
+        public static string Common_VersionGuid {
+            get {
+                return ResourceManager.GetString("Common.VersionGuid", resourceCulture);
+            }
+        }
+        public static string Common_Warning {
+            get {
+                return ResourceManager.GetString("Common.Warning", resourceCulture);
+            }
+        }
+        public static string Common_Yes {
+            get {
+                return ResourceManager.GetString("Common.Yes", resourceCulture);
+            }
+        }
+        public static string ContextMenu_CloseRoblox {
+            get {
+                return ResourceManager.GetString("ContextMenu.CloseRoblox", resourceCulture);
+            }
+        }
+        public static string ContextMenu_CloseRobloxMessage {
+            get {
+                return ResourceManager.GetString("ContextMenu.CloseRobloxMessage", resourceCulture);
+            }
+        }
+        public static string ContextMenu_CopyDeeplinkInvite {
+            get {
+                return ResourceManager.GetString("ContextMenu.CopyDeeplinkInvite", resourceCulture);
+            }
+        }
+        public static string ContextMenu_GameHistory_ClearHistory {
+            get {
+                return ResourceManager.GetString("ContextMenu.GameHistory.ClearHistory", resourceCulture);
+            }
+        }
+        public static string ContextMenu_GameHistory_CopyJobId {
+            get {
+                return ResourceManager.GetString("ContextMenu.GameHistory.CopyJobId", resourceCulture);
+            }
+        }
+        public static string ContextMenu_GameHistory_Description {
+            get {
+                return ResourceManager.GetString("ContextMenu.GameHistory.Description", resourceCulture);
+            }
+        }
+        public static string ContextMenu_GameHistory_NoHistory {
+            get {
+                return ResourceManager.GetString("ContextMenu.GameHistory.NoHistory", resourceCulture);
+            }
+        }
+        public static string ContextMenu_GameHistory_Refresh {
+            get {
+                return ResourceManager.GetString("ContextMenu.GameHistory.Refresh", resourceCulture);
+            }
+        }
+        public static string ContextMenu_GameHistory_Rejoin {
+            get {
+                return ResourceManager.GetString("ContextMenu.GameHistory.Rejoin", resourceCulture);
+            }
+        }
+        public static string ContextMenu_GameHistory_Title {
+            get {
+                return ResourceManager.GetString("ContextMenu.GameHistory.Title", resourceCulture);
+            }
+        }
+        public static string ContextMenu_Logs_Title {
+            get {
+                return ResourceManager.GetString("ContextMenu.Logs.Title", resourceCulture);
+            }
+        }
+        public static string ContextMenu_MessageLogs_Description {
+            get {
+                return ResourceManager.GetString("ContextMenu.MessageLogs.Description", resourceCulture);
+            }
+        }
+        public static string ContextMenu_MessageLogs_Title {
+            get {
+                return ResourceManager.GetString("ContextMenu.MessageLogs.Title", resourceCulture);
+            }
+        }
+        public static string ContextMenu_PlayerLogs_Title {
+            get {
+                return ResourceManager.GetString("ContextMenu.PlayerLogs.Title", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_CopyInstanceId {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.CopyInstanceId", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_InstanceId {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.InstanceId", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_Location {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.Location", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_Notification_ServerNotTracked {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.Notification.ServerNotTracked", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_Notification_Text {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.Notification.Text", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_Notification_Title_Private {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.Notification.Title.Private", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_Notification_Title_Public {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.Notification.Title.Public", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_Notification_Title_Reserved {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.Notification.Title.Reserved", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_Title {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.Title", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_Type {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.Type", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformation_Uptime {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformation.Uptime", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformationUptime_Notification_Text {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformationUptime.Notification.Text", resourceCulture);
+            }
+        }
+        public static string ContextMenu_ServerInformationUptimeAndLocation_Notification_Text {
+            get {
+                return ResourceManager.GetString("ContextMenu.ServerInformationUptimeAndLocation.Notification.Text", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Add_Errors_FileNotZip {
+            get {
+                return ResourceManager.GetString("CustomTheme.Add.Errors.FileNotZip", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Add_Errors_NameEmpty {
+            get {
+                return ResourceManager.GetString("CustomTheme.Add.Errors.NameEmpty", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Add_Errors_NameIllegalCharacters {
+            get {
+                return ResourceManager.GetString("CustomTheme.Add.Errors.NameIllegalCharacters", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Add_Errors_NameReserved {
+            get {
+                return ResourceManager.GetString("CustomTheme.Add.Errors.NameReserved", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Add_Errors_NameTaken {
+            get {
+                return ResourceManager.GetString("CustomTheme.Add.Errors.NameTaken", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Add_Errors_Unknown {
+            get {
+                return ResourceManager.GetString("CustomTheme.Add.Errors.Unknown", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Add_Errors_ZipInvalidData {
+            get {
+                return ResourceManager.GetString("CustomTheme.Add.Errors.ZipInvalidData", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Add_Errors_ZipMissingThemeFile {
+            get {
+                return ResourceManager.GetString("CustomTheme.Add.Errors.ZipMissingThemeFile", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Add_Title {
+            get {
+                return ResourceManager.GetString("CustomTheme.Add.Title", resourceCulture);
+            }
+        }
+        public static string CustomTheme_DefaultName {
+            get {
+                return ResourceManager.GetString("CustomTheme.DefaultName", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Editor_ConfirmSave {
+            get {
+                return ResourceManager.GetString("CustomTheme.Editor.ConfirmSave", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Editor_Errors_PreviewFailed {
+            get {
+                return ResourceManager.GetString("CustomTheme.Editor.Errors.PreviewFailed", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Editor_OpenThemeDirectory {
+            get {
+                return ResourceManager.GetString("CustomTheme.Editor.OpenThemeDirectory", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Editor_Preview {
+            get {
+                return ResourceManager.GetString("CustomTheme.Editor.Preview", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Editor_Save {
+            get {
+                return ResourceManager.GetString("CustomTheme.Editor.Save", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Editor_Save_Error {
+            get {
+                return ResourceManager.GetString("CustomTheme.Editor.Save.Error", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Editor_Save_Success {
+            get {
+                return ResourceManager.GetString("CustomTheme.Editor.Save.Success", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Editor_Save_Success_Description {
+            get {
+                return ResourceManager.GetString("CustomTheme.Editor.Save.Success.Description", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Editor_Title {
+            get {
+                return ResourceManager.GetString("CustomTheme.Editor.Title", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_DialogAlreadyInitialised {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.DialogAlreadyInitialised", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeBlacklistedUriScheme {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeBlacklistedUriScheme", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeConversionError {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeConversionError", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeInvalidType {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeInvalidType", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeMissing {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeMissing", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeMissingChild {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeMissingChild", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeMultipleChildren {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeMultipleChildren", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeMultipleDefinitions {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeMultipleDefinitions", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeMustBeLargerThanMin {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeMustBeLargerThanMin", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeMustBeSmallerThanMax {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeMustBeSmallerThanMax", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeParseError {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeParseError", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementAttributeParseErrorNull {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementAttributeParseErrorNull", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementInvalidChild {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementInvalidChild", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementMultipleChildren {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementMultipleChildren", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_ElementTypeCreationFailed {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.ElementTypeCreationFailed", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_InvalidBackdrop {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.InvalidBackdrop", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_InvalidRoot {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.InvalidRoot", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_NoThemeSelected {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.NoThemeSelected", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_SetupFailed {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.SetupFailed", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_TooManyElements {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.TooManyElements", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_UnknownElement {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.UnknownElement", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_UnknownEnumValue {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.UnknownEnumValue", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_VersionNotNumber {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.VersionNotNumber", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_VersionNotRecognised {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.VersionNotRecognised", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_VersionNotSet {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.VersionNotSet", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_VersionNotSupported {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.VersionNotSupported", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Errors_XMLParseFailed {
+            get {
+                return ResourceManager.GetString("CustomTheme.Errors.XMLParseFailed", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Templates_Blank_MoreExamples {
+            get {
+                return ResourceManager.GetString("CustomTheme.Templates.Blank.MoreExamples", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Templates_Blank_UIElements {
+            get {
+                return ResourceManager.GetString("CustomTheme.Templates.Blank.UIElements", resourceCulture);
+            }
+        }
+        public static string CustomTheme_Templates_Simple_MoreExamples {
+            get {
+                return ResourceManager.GetString("CustomTheme.Templates.Simple.MoreExamples", resourceCulture);
+            }
+        }
+        public static string Dialog_AddFastFlag_Title {
+            get {
+                return ResourceManager.GetString("Dialog.AddFastFlag.Title", resourceCulture);
+            }
+        }
+        public static string Dialog_AlreadyRunning_Installer {
+            get {
+                return ResourceManager.GetString("Dialog.AlreadyRunning.Installer", resourceCulture);
+            }
+        }
+        public static string Dialog_AlreadyRunning_Uninstaller {
+            get {
+                return ResourceManager.GetString("Dialog.AlreadyRunning.Uninstaller", resourceCulture);
+            }
+        }
+        public static string Dialog_Bloxshade_Setting {
+            get {
+                return ResourceManager.GetString("Dialog.Bloxshade.Setting", resourceCulture);
+            }
+        }
+        public static string Dialog_Bloxshade_ThankYou {
+            get {
+                return ResourceManager.GetString("Dialog.Bloxshade.ThankYou", resourceCulture);
+            }
+        }
+        public static string Dialog_CannotCreateShortcuts {
+            get {
+                return ResourceManager.GetString("Dialog.CannotCreateShortcuts", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_BadConnection {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.BadConnection", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_MoreInfo {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.MoreInfo", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_Preventing {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.Preventing", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_RobloxDown {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.RobloxDown", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_RobloxUpgradeNeeded {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.RobloxUpgradeNeeded", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_RobloxUpgradeSkip {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.RobloxUpgradeSkip", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_TimedOut {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.TimedOut", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_Title {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.Title", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_TryAgainLater {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.TryAgainLater", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_UnableToConnect {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.UnableToConnect", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_UnableToDownload {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.UnableToDownload", resourceCulture);
+            }
+        }
+        public static string Dialog_Connectivity_UnableToDownloadReason {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.UnableToDownloadReason", resourceCulture);
+            }
+        }
+        public static string Dialog_Exception_CopyLogContents {
+            get {
+                return ResourceManager.GetString("Dialog.Exception.CopyLogContents", resourceCulture);
+            }
+        }
+        public static string Dialog_Exception_Info_1 {
+            get {
+                return ResourceManager.GetString("Dialog.Exception.Info.1", resourceCulture);
+            }
+        }
+        public static string Dialog_Exception_Info_2 {
+            get {
+                return ResourceManager.GetString("Dialog.Exception.Info.2", resourceCulture);
+            }
+        }
+        public static string Dialog_Exception_Info_2_Alt {
+            get {
+                return ResourceManager.GetString("Dialog.Exception.Info.2.Alt", resourceCulture);
+            }
+        }
+        public static string Dialog_Exception_Report {
+            get {
+                return ResourceManager.GetString("Dialog.Exception.Report", resourceCulture);
+            }
+        }
+        public static string Dialog_Exception_Title {
+            get {
+                return ResourceManager.GetString("Dialog.Exception.Title", resourceCulture);
+            }
+        }
+        public static string Dialog_Exception_Version {
+            get {
+                return ResourceManager.GetString("Dialog.Exception.Version", resourceCulture);
+            }
+        }
+        public static string Dialog_IconLoadFailed {
+            get {
+                return ResourceManager.GetString("Dialog.IconLoadFailed", resourceCulture);
+            }
+        }
+        public static string Dialog_LanguageSelector_Header {
+            get {
+                return ResourceManager.GetString("Dialog.LanguageSelector.Header", resourceCulture);
+            }
+        }
+        public static string Dialog_LanguageSelector_Subtext {
+            get {
+                return ResourceManager.GetString("Dialog.LanguageSelector.Subtext", resourceCulture);
+            }
+        }
+        public static string Dialog_PlayerError_Crash {
+            get {
+                return ResourceManager.GetString("Dialog.PlayerError.Crash", resourceCulture);
+            }
+        }
+        public static string Dialog_PlayerError_FailedLaunch {
+            get {
+                return ResourceManager.GetString("Dialog.PlayerError.FailedLaunch", resourceCulture);
+            }
+        }
+        public static string Dialog_PlayerError_HelpInformation {
+            get {
+                return ResourceManager.GetString("Dialog.PlayerError.HelpInformation", resourceCulture);
+            }
+        }
+        public static string Dialog_RegistryWriteError {
+            get {
+                return ResourceManager.GetString("Dialog.RegistryWriteError", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperIcon_IconEarly2015 {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperIcon.IconEarly2015", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperIcon_IconLate2015 {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperIcon.IconLate2015", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_ByfronDialog {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.ByfronDialog", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_ClassicFluentDialog {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.ClassicFluentDialog", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_CustomDialog {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.CustomDialog", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_FluentAeroDialog {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.FluentAeroDialog", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_FluentDialog {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.FluentDialog", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_FroststrapDialog {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.FroststrapDialog", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_LegacyDialog2008 {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.LegacyDialog2008", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_LegacyDialog2011 {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.LegacyDialog2011", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_ProgressDialog {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.ProgressDialog", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_TwentyFiveDialog {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.TwentyFiveDialog", resourceCulture);
+            }
+        }
+        public static string Enums_BootstrapperStyle_VistaDialog {
+            get {
+                return ResourceManager.GetString("Enums.BootstrapperStyle.VistaDialog", resourceCulture);
+            }
+        }
+        public static string Enums_CleanerOptions_Never {
+            get {
+                return ResourceManager.GetString("Enums.CleanerOptions.Never", resourceCulture);
+            }
+        }
+        public static string Enums_CleanerOptions_OneDay {
+            get {
+                return ResourceManager.GetString("Enums.CleanerOptions.OneDay", resourceCulture);
+            }
+        }
+        public static string Enums_CleanerOptions_OneMonth {
+            get {
+                return ResourceManager.GetString("Enums.CleanerOptions.OneMonth", resourceCulture);
+            }
+        }
+        public static string Enums_CleanerOptions_OneWeek {
+            get {
+                return ResourceManager.GetString("Enums.CleanerOptions.OneWeek", resourceCulture);
+            }
+        }
+        public static string Enums_CleanerOptions_TwoMonths {
+            get {
+                return ResourceManager.GetString("Enums.CleanerOptions.TwoMonths", resourceCulture);
+            }
+        }
+        public static string Enums_CopyFormatMode_Format1 {
+            get {
+                return ResourceManager.GetString("Enums.CopyFormatMode.Format1", resourceCulture);
+            }
+        }
+        public static string Enums_CopyFormatMode_Format2 {
+            get {
+                return ResourceManager.GetString("Enums.CopyFormatMode.Format2", resourceCulture);
+            }
+        }
+        public static string Enums_CopyFormatMode_Format3 {
+            get {
+                return ResourceManager.GetString("Enums.CopyFormatMode.Format3", resourceCulture);
+            }
+        }
+        public static string Enums_CopyFormatMode_Format4 {
+            get {
+                return ResourceManager.GetString("Enums.CopyFormatMode.Format4", resourceCulture);
+            }
+        }
+        public static string Enums_CursorType_BlackAndWhiteDot {
+            get {
+                return ResourceManager.GetString("Enums.CursorType.BlackAndWhiteDot", resourceCulture);
+            }
+        }
+        public static string Enums_CursorType_From2006 {
+            get {
+                return ResourceManager.GetString("Enums.CursorType.From2006", resourceCulture);
+            }
+        }
+        public static string Enums_CursorType_From2013 {
+            get {
+                return ResourceManager.GetString("Enums.CursorType.From2013", resourceCulture);
+            }
+        }
+        public static string Enums_CursorType_PurpleCross {
+            get {
+                return ResourceManager.GetString("Enums.CursorType.PurpleCross", resourceCulture);
+            }
+        }
+        public static string Enums_CustomThemeTemplate_Blank {
+            get {
+                return ResourceManager.GetString("Enums.CustomThemeTemplate.Blank", resourceCulture);
+            }
+        }
+        public static string Enums_CustomThemeTemplate_Simple {
+            get {
+                return ResourceManager.GetString("Enums.CustomThemeTemplate.Simple", resourceCulture);
+            }
+        }
+        public static string Enums_EmojiType_Catmoji {
+            get {
+                return ResourceManager.GetString("Enums.EmojiType.Catmoji", resourceCulture);
+            }
+        }
+        public static string Enums_EmojiType_Default {
+            get {
+                return ResourceManager.GetString("Enums.EmojiType.Default", resourceCulture);
+            }
+        }
+        public static string Enums_EmojiType_Windows10 {
+            get {
+                return ResourceManager.GetString("Enums.EmojiType.Windows10", resourceCulture);
+            }
+        }
+        public static string Enums_EmojiType_Windows11 {
+            get {
+                return ResourceManager.GetString("Enums.EmojiType.Windows11", resourceCulture);
+            }
+        }
+        public static string Enums_EmojiType_Windows8 {
+            get {
+                return ResourceManager.GetString("Enums.EmojiType.Windows8", resourceCulture);
+            }
+        }
+        public static string Enums_FlagPresets_RenderingMode_D3D11 {
+            get {
+                return ResourceManager.GetString("Enums.FlagPresets.RenderingMode.D3D11", resourceCulture);
+            }
+        }
+        public static string Enums_FlagPresets_RenderingMode_OpenGL {
+            get {
+                return ResourceManager.GetString("Enums.FlagPresets.RenderingMode.OpenGL", resourceCulture);
+            }
+        }
+        public static string Enums_FlagPresets_RenderingMode_Vulkan {
+            get {
+                return ResourceManager.GetString("Enums.FlagPresets.RenderingMode.Vulkan", resourceCulture);
+            }
+        }
+        public static string Enums_ServerType_Private {
+            get {
+                return ResourceManager.GetString("Enums.ServerType.Private", resourceCulture);
+            }
+        }
+        public static string Enums_ServerType_Public {
+            get {
+                return ResourceManager.GetString("Enums.ServerType.Public", resourceCulture);
+            }
+        }
+        public static string Enums_ServerType_Reserved {
+            get {
+                return ResourceManager.GetString("Enums.ServerType.Reserved", resourceCulture);
+            }
+        }
+        public static string Enums_Theme_Blue {
+            get {
+                return ResourceManager.GetString("Enums.Theme.Blue", resourceCulture);
+            }
+        }
+        public static string Enums_Theme_Dark {
+            get {
+                return ResourceManager.GetString("Enums.Theme.Dark", resourceCulture);
+            }
+        }
+        public static string Enums_Theme_Froststrap {
+            get {
+                return ResourceManager.GetString("Enums.Theme.Froststrap", resourceCulture);
+            }
+        }
+        public static string Enums_Theme_Green {
+            get {
+                return ResourceManager.GetString("Enums.Theme.Green", resourceCulture);
+            }
+        }
+        public static string Enums_Theme_Light {
+            get {
+                return ResourceManager.GetString("Enums.Theme.Light", resourceCulture);
+            }
+        }
+        public static string Enums_Theme_Orange {
+            get {
+                return ResourceManager.GetString("Enums.Theme.Orange", resourceCulture);
+            }
+        }
+        public static string Enums_Theme_Pink {
+            get {
+                return ResourceManager.GetString("Enums.Theme.Pink", resourceCulture);
+            }
+        }
+        public static string Enums_Theme_Purple {
+            get {
+                return ResourceManager.GetString("Enums.Theme.Purple", resourceCulture);
+            }
+        }
+        public static string FileTypes_JSONFiles {
+            get {
+                return ResourceManager.GetString("FileTypes.JSONFiles", resourceCulture);
+            }
+        }
+        public static string FileTypes_ZipArchive {
+            get {
+                return ResourceManager.GetString("FileTypes.ZipArchive", resourceCulture);
+            }
+        }
+        public static string InstallChecker_Updated {
+            get {
+                return ResourceManager.GetString("InstallChecker.Updated", resourceCulture);
+            }
+        }
+        public static string InstallChecker_VersionDifferentThanInstalled {
+            get {
+                return ResourceManager.GetString("InstallChecker.VersionDifferentThanInstalled", resourceCulture);
+            }
+        }
+        public static string InstallChecker_VersionLessThanInstalled {
+            get {
+                return ResourceManager.GetString("InstallChecker.VersionLessThanInstalled", resourceCulture);
+            }
+        }
+        public static string Installer_Completion_Launch_Description {
+            get {
+                return ResourceManager.GetString("Installer.Completion.Launch.Description", resourceCulture);
+            }
+        }
+        public static string Installer_Completion_Launch_Title {
+            get {
+                return ResourceManager.GetString("Installer.Completion.Launch.Title", resourceCulture);
+            }
+        }
+        public static string Installer_Completion_Settings_Description {
+            get {
+                return ResourceManager.GetString("Installer.Completion.Settings.Description", resourceCulture);
+            }
+        }
+        public static string Installer_Completion_Settings_Title {
+            get {
+                return ResourceManager.GetString("Installer.Completion.Settings.Title", resourceCulture);
+            }
+        }
+        public static string Installer_Completion_Text {
+            get {
+                return ResourceManager.GetString("Installer.Completion.Text", resourceCulture);
+            }
+        }
+        public static string Installer_Completion_Title {
+            get {
+                return ResourceManager.GetString("Installer.Completion.Title", resourceCulture);
+            }
+        }
+        public static string Installer_FailedToImportSettings {
+            get {
+                return ResourceManager.GetString("Installer.FailedToImportSettings", resourceCulture);
+            }
+        }
+        public static string Installer_ImportSettings {
+            get {
+                return ResourceManager.GetString("Installer.ImportSettings", resourceCulture);
+            }
+        }
+        public static string Installer_Install_CannotOverwrite {
+            get {
+                return ResourceManager.GetString("Installer.Install.CannotOverwrite", resourceCulture);
+            }
+        }
+        public static string Installer_Install_Location_DataFound {
+            get {
+                return ResourceManager.GetString("Installer.Install.Location.DataFound", resourceCulture);
+            }
+        }
+        public static string Installer_Install_Location_Text {
+            get {
+                return ResourceManager.GetString("Installer.Install.Location.Text", resourceCulture);
+            }
+        }
+        public static string Installer_Install_Location_Title {
+            get {
+                return ResourceManager.GetString("Installer.Install.Location.Title", resourceCulture);
+            }
+        }
+        public static string Installer_Install_Shortcuts_Description {
+            get {
+                return ResourceManager.GetString("Installer.Install.Shortcuts.Description", resourceCulture);
+            }
+        }
+        public static string Installer_Install_Title {
+            get {
+                return ResourceManager.GetString("Installer.Install.Title", resourceCulture);
+            }
+        }
+        public static string Installer_InstallationNotFound {
+            get {
+                return ResourceManager.GetString("Installer.InstallationNotFound", resourceCulture);
+            }
+        }
+        public static string Installer_ShouldCancel {
+            get {
+                return ResourceManager.GetString("Installer.ShouldCancel", resourceCulture);
+            }
+        }
+        public static string Installer_Title {
+            get {
+                return ResourceManager.GetString("Installer.Title", resourceCulture);
+            }
+        }
+        public static string Installer_Welcome_MainText {
+            get {
+                return ResourceManager.GetString("Installer.Welcome.MainText", resourceCulture);
+            }
+        }
+        public static string Installer_Welcome_NextToContinue {
+            get {
+                return ResourceManager.GetString("Installer.Welcome.NextToContinue", resourceCulture);
+            }
+        }
+        public static string Installer_Welcome_Title {
+            get {
+                return ResourceManager.GetString("Installer.Welcome.Title", resourceCulture);
+            }
+        }
+        public static string Installer_Welcome_UpdateNotice {
+            get {
+                return ResourceManager.GetString("Installer.Welcome.UpdateNotice", resourceCulture);
+            }
+        }
+        public static string JsonManager_FastFlagsLoadFailed {
+            get {
+                return ResourceManager.GetString("JsonManager.FastFlagsLoadFailed", resourceCulture);
+            }
+        }
+        public static string JsonManager_SettingsLoadFailed {
+            get {
+                return ResourceManager.GetString("JsonManager.SettingsLoadFailed", resourceCulture);
+            }
+        }
+        public static string LaunchMenu_ConfigureSettings {
+            get {
+                return ResourceManager.GetString("LaunchMenu.ConfigureSettings", resourceCulture);
+            }
+        }
+        public static string LaunchMenu_Discord {
+            get {
+                return ResourceManager.GetString("LaunchMenu.Discord", resourceCulture);
+            }
+        }
+        public static string LaunchMenu_LaunchRoblox {
+            get {
+                return ResourceManager.GetString("LaunchMenu.LaunchRoblox", resourceCulture);
+            }
+        }
+        public static string LaunchMenu_LaunchRobloxStudio {
+            get {
+                return ResourceManager.GetString("LaunchMenu.LaunchRobloxStudio", resourceCulture);
+            }
+        }
+        public static string LaunchMenu_Wiki_Description {
+            get {
+                return ResourceManager.GetString("LaunchMenu.Wiki.Description", resourceCulture);
+            }
+        }
+        public static string LaunchMenu_Wiki_Title {
+            get {
+                return ResourceManager.GetString("LaunchMenu.Wiki.Title", resourceCulture);
+            }
+        }
+        public static string Logger_NoWriteMode {
+            get {
+                return ResourceManager.GetString("Logger.NoWriteMode", resourceCulture);
+            }
+        }
+        public static string Menu_About_Contributors {
+            get {
+                return ResourceManager.GetString("Menu.About.Contributors", resourceCulture);
+            }
+        }
+        public static string Menu_About_Contributors_Code {
+            get {
+                return ResourceManager.GetString("Menu.About.Contributors.Code", resourceCulture);
+            }
+        }
+        public static string Menu_About_Contributors_Contributors {
+            get {
+                return ResourceManager.GetString("Menu.About.Contributors.Contributors", resourceCulture);
+            }
+        }
+        public static string Menu_About_Contributors_Description {
+            get {
+                return ResourceManager.GetString("Menu.About.Contributors.Description", resourceCulture);
+            }
+        }
+        public static string Menu_About_Contributors_Insipirations {
+            get {
+                return ResourceManager.GetString("Menu.About.Contributors.Insipirations", resourceCulture);
+            }
+        }
+        public static string Menu_About_Description {
+            get {
+                return ResourceManager.GetString("Menu.About.Description", resourceCulture);
+            }
+        }
+        public static string Menu_About_DiscordServer {
+            get {
+                return ResourceManager.GetString("Menu.About.DiscordServer", resourceCulture);
+            }
+        }
+        public static string Menu_About_GithubRepository {
+            get {
+                return ResourceManager.GetString("Menu.About.GithubRepository", resourceCulture);
+            }
+        }
+        public static string Menu_About_HelpInformation {
+            get {
+                return ResourceManager.GetString("Menu.About.HelpInformation", resourceCulture);
+            }
+        }
+        public static string Menu_About_Licenses {
+            get {
+                return ResourceManager.GetString("Menu.About.Licenses", resourceCulture);
+            }
+        }
+        public static string Menu_About_Licenses_Apache {
+            get {
+                return ResourceManager.GetString("Menu.About.Licenses.Apache", resourceCulture);
+            }
+        }
+        public static string Menu_About_Licenses_BSD2 {
+            get {
+                return ResourceManager.GetString("Menu.About.Licenses.BSD2", resourceCulture);
+            }
+        }
+        public static string Menu_About_Licenses_MIT {
+            get {
+                return ResourceManager.GetString("Menu.About.Licenses.MIT", resourceCulture);
+            }
+        }
+        public static string Menu_About_ReportIssue {
+            get {
+                return ResourceManager.GetString("Menu.About.ReportIssue", resourceCulture);
+            }
+        }
+        public static string Menu_About_Title {
+            get {
+                return ResourceManager.GetString("Menu.About.Title", resourceCulture);
+            }
+        }
+        public static string Menu_About_Version {
+            get {
+                return ResourceManager.GetString("Menu.About.Version", resourceCulture);
+            }
+        }
+        public static string Menu_AccountManager_Title {
+            get {
+                return ResourceManager.GetString("Menu.AccountManager.Title", resourceCulture);
+            }
+        }
+        public static string Menu_AdvancedSettings_SettingsSaved {
+            get {
+                return ResourceManager.GetString("Menu.AdvancedSettings.SettingsSaved", resourceCulture);
+            }
+        }
+        public static string Menu_AllFiles {
+            get {
+                return ResourceManager.GetString("Menu.AllFiles", resourceCulture);
+            }
+        }
+        public static string Menu_AlreadyRunning_Caption {
+            get {
+                return ResourceManager.GetString("Menu.AlreadyRunning.Caption", resourceCulture);
+            }
+        }
+        public static string Menu_AlreadyRunning_Title {
+            get {
+                return ResourceManager.GetString("Menu.AlreadyRunning.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Bootstrapper_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Bootstrapper.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Bootstrapper_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Bootstrapper.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_BootstrapperDownloading_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.BootstrapperDownloading.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_BootstrapperDownloading_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.BootstrapperDownloading.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Custom_Theme_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Custom.Theme.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Custom_Theme_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Custom.Theme.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_CustomAppFont_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.CustomAppFont.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_CustomAppFont_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.CustomAppFont.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Customisation_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Customisation.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Customisation_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Customisation.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_CustomisationIcon_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.CustomisationIcon.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_CustomisationIcon_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.CustomisationIcon.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_CustomisationTitle_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.CustomisationTitle.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_CustomisationTitle_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.CustomisationTitle.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_CustomThemes_DeleteFailed {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.CustomThemes.DeleteFailed", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_CustomThemes_NoneSelected {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.CustomThemes.NoneSelected", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_CustomThemes_RenameFailed {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.CustomThemes.RenameFailed", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Icon_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Icon.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Icon_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Icon.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Language_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Language.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Language_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Language.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Launcher_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Launcher.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Launcher_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Launcher.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_MenuAdjustment_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.MenuAdjustment.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_MenuAdjustment_LockOrder {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.MenuAdjustment.LockOrder", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_MenuAdjustment_MoveDown {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.MenuAdjustment.MoveDown", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_MenuAdjustment_MoveUp {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.MenuAdjustment.MoveUp", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_MenuAdjustment_ResetToDefault {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.MenuAdjustment.ResetToDefault", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_MenuAdjustment_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.MenuAdjustment.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Preview {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Preview", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_WindowsBackdrop_Description {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.WindowsBackdrop.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Appearance_WindowsBackdrop_Title {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.WindowsBackdrop.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_AllowCookieAccess_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.AllowCookieAccess.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_AllowCookieAccess_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.AllowCookieAccess.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_AnselBanner {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.AnselBanner", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_AutoUpdate_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.AutoUpdate.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_AutoUpdate_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.AutoUpdate.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_BackgroundUpdates_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.BackgroundUpdates.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_BackgroundUpdates_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.BackgroundUpdates.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_Channel_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.Channel.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_CloseCrashHandler_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.CloseCrashHandler.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_CloseCrashHandler_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.CloseCrashHandler.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_ConfirmLaunches_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.ConfirmLaunches.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_ConfirmLaunches_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.ConfirmLaunches.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_DisableAnimation_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.DisableAnimation.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_DisableAnimation_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.DisableAnimation.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_DisableHardwareAcceleration_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.DisableHardwareAcceleration.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_DisableHardwareAcceleration_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.DisableHardwareAcceleration.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_ForceRobloxLanguage_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.ForceRobloxLanguage.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_ForceRobloxLanguage_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.ForceRobloxLanguage.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_ForceRobloxReinstall_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.ForceRobloxReinstall.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_ForceRobloxReinstall_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.ForceRobloxReinstall.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_MultiInstances_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.MultiInstances.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_MultiInstances_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.MultiInstances.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_ProcessPriority_Description {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.ProcessPriority.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_ProcessPriority_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.ProcessPriority.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Behaviour_Title {
+            get {
+                return ResourceManager.GetString("Menu.Behaviour.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Bootstrapper_Cleaner_Age_Description {
+            get {
+                return ResourceManager.GetString("Menu.Bootstrapper.Cleaner.Age.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Bootstrapper_Cleaner_Age_Title {
+            get {
+                return ResourceManager.GetString("Menu.Bootstrapper.Cleaner.Age.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Bootstrapper_Cleaner_Cache_Description {
+            get {
+                return ResourceManager.GetString("Menu.Bootstrapper.Cleaner.Cache.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Bootstrapper_Cleaner_Cache_Title {
+            get {
+                return ResourceManager.GetString("Menu.Bootstrapper.Cleaner.Cache.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Bootstrapper_Cleaner_IncludeBloxstrap_Description {
+            get {
+                return ResourceManager.GetString("Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Bootstrapper_Cleaner_IncludeBloxstrap_Title {
+            get {
+                return ResourceManager.GetString("Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Bootstrapper_Cleaner_Logs_Description {
+            get {
+                return ResourceManager.GetString("Menu.Bootstrapper.Cleaner.Logs.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Bootstrapper_Cleaner_Logs_Title {
+            get {
+                return ResourceManager.GetString("Menu.Bootstrapper.Cleaner.Logs.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Bootstrapper_CleanUp_Description {
+            get {
+                return ResourceManager.GetString("Menu.Bootstrapper.CleanUp.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Bootstrapper_CleanUp_Title {
+            get {
+                return ResourceManager.GetString("Menu.Bootstrapper.CleanUp.Title", resourceCulture);
+            }
+        }
+        public static string Menu_BottomButtons_ExportSettings {
+            get {
+                return ResourceManager.GetString("Menu.BottomButtons.ExportSettings", resourceCulture);
+            }
+        }
+        public static string Menu_BottomButtons_ImportSettings {
+            get {
+                return ResourceManager.GetString("Menu.BottomButtons.ImportSettings", resourceCulture);
+            }
+        }
+        public static string Menu_BottomButtons_ResetSettingsToDefault {
+            get {
+                return ResourceManager.GetString("Menu.BottomButtons.ResetSettingsToDefault", resourceCulture);
+            }
+        }
+        public static string Menu_BottomButtons_Uninstall {
+            get {
+                return ResourceManager.GetString("Menu.BottomButtons.Uninstall", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_ChangeAction_Automatic {
+            get {
+                return ResourceManager.GetString("Menu.Channel.ChangeAction.Automatic", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_ChangeAction_Description {
+            get {
+                return ResourceManager.GetString("Menu.Channel.ChangeAction.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_ChangeAction_Ignore {
+            get {
+                return ResourceManager.GetString("Menu.Channel.ChangeAction.Ignore", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_ChangeAction_Prompt {
+            get {
+                return ResourceManager.GetString("Menu.Channel.ChangeAction.Prompt", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_ChangeAction_Title {
+            get {
+                return ResourceManager.GetString("Menu.Channel.ChangeAction.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_Description {
+            get {
+                return ResourceManager.GetString("Menu.Channel.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_RobloxUpgrades {
+            get {
+                return ResourceManager.GetString("Menu.Channel.RobloxUpgrades", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_RobloxUpgrades_Description {
+            get {
+                return ResourceManager.GetString("Menu.Channel.RobloxUpgrades.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_StaticDirectory_Description {
+            get {
+                return ResourceManager.GetString("Menu.Channel.StaticDirectory.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_StaticDirectory_Title {
+            get {
+                return ResourceManager.GetString("Menu.Channel.StaticDirectory.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_Switcher_Fetching {
+            get {
+                return ResourceManager.GetString("Menu.Channel.Switcher.Fetching", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_Switcher_Unauthorized {
+            get {
+                return ResourceManager.GetString("Menu.Channel.Switcher.Unauthorized", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_VersionHash_Desription {
+            get {
+                return ResourceManager.GetString("Menu.Channel.VersionHash.Desription", resourceCulture);
+            }
+        }
+        public static string Menu_Channel_VersionHash_Title {
+            get {
+                return ResourceManager.GetString("Menu.Channel.VersionHash.Title", resourceCulture);
+            }
+        }
+        public static string Menu_ChannelChanger_AvailableChannels {
+            get {
+                return ResourceManager.GetString("Menu.ChannelChanger.AvailableChannels", resourceCulture);
+            }
+        }
+        public static string Menu_ChannelChanger_AvailableChannels_Description {
+            get {
+                return ResourceManager.GetString("Menu.ChannelChanger.AvailableChannels.Description", resourceCulture);
+            }
+        }
+        public static string Menu_ChannelChanger_Description {
+            get {
+                return ResourceManager.GetString("Menu.ChannelChanger.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Channels_DisableAnimationRestart {
+            get {
+                return ResourceManager.GetString("Menu.Channels.DisableAnimationRestart", resourceCulture);
+            }
+        }
+        public static string Menu_Channels_HardwareAccelRestart {
+            get {
+                return ResourceManager.GetString("Menu.Channels.HardwareAccelRestart", resourceCulture);
+            }
+        }
+        public static string Menu_Context_PlayerLogs {
+            get {
+                return ResourceManager.GetString("Menu.Context.PlayerLogs", resourceCulture);
+            }
+        }
+        public static string Menu_Context_PlayerLogs_Description {
+            get {
+                return ResourceManager.GetString("Menu.Context.PlayerLogs.Description", resourceCulture);
+            }
+        }
+        public static string Menu_CustomMods_Description {
+            get {
+                return ResourceManager.GetString("Menu.CustomMods.Description", resourceCulture);
+            }
+        }
+        public static string Menu_CustomMods_Title {
+            get {
+                return ResourceManager.GetString("Menu.CustomMods.Title", resourceCulture);
+            }
+        }
+        public static string Menu_DebugMenu_ClearLogs {
+            get {
+                return ResourceManager.GetString("Menu.DebugMenu.ClearLogs", resourceCulture);
+            }
+        }
+        public static string Menu_DebugMenu_CopySelected {
+            get {
+                return ResourceManager.GetString("Menu.DebugMenu.CopySelected", resourceCulture);
+            }
+        }
+        public static string Menu_DebugMenu_ExportLogs {
+            get {
+                return ResourceManager.GetString("Menu.DebugMenu.ExportLogs", resourceCulture);
+            }
+        }
+        public static string Menu_DebugMenu_OpenLogsFolder {
+            get {
+                return ResourceManager.GetString("Menu.DebugMenu.OpenLogsFolder", resourceCulture);
+            }
+        }
+        public static string Menu_DebugMenu_RefreshLogs {
+            get {
+                return ResourceManager.GetString("Menu.DebugMenu.RefreshLogs", resourceCulture);
+            }
+        }
+        public static string Menu_DebugMenu_SearchBoxPlaceHolder {
+            get {
+                return ResourceManager.GetString("Menu.DebugMenu.SearchBoxPlaceHolder", resourceCulture);
+            }
+        }
+        public static string Menu_Deployment_Channel_OutOfDate {
+            get {
+                return ResourceManager.GetString("Menu.Deployment.Channel.OutOfDate", resourceCulture);
+            }
+        }
+        public static string Menu_Dialog_QuickSignIn_Title {
+            get {
+                return ResourceManager.GetString("Menu.Dialog.QuickSignIn.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_AddNew {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.AddNew", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_AdvancedSettings {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.AdvancedSettings", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_AdvancedSettings_ImportAddID {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.AdvancedSettings.ImportAddID", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_AdvancedSettings_SingleAddID {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.AdvancedSettings.SingleAddID", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_AlreadyExists {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.AlreadyExists", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_Back {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.Back", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_BannerText {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.BannerText", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_BannerTitle {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.BannerTitle", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_CleanList {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.CleanList", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_ConflictingImport {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.ConflictingImport", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_DeleteSelected {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.DeleteSelected", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_DropJson_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.DropJson.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_DropJson_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.DropJson.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_ExportJson {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.ExportJson", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_ExportJson_IncludePresets {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.ExportJson.IncludePresets", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_InvalidBoolValue {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.InvalidBoolValue", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_InvalidCharacter {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.InvalidCharacter", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_InvalidJSON {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.InvalidJSON", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_InvalidNumberValue {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.InvalidNumberValue", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_InvalidPlaceFilter {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.InvalidPlaceFilter", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_InvalidPrefix {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.InvalidPrefix", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_JsonCopiedToClipboard {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.JsonCopiedToClipboard", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_LargeConfig {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.LargeConfig", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_NoFlags {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.NoFlags", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_ProfilesDescription {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.ProfilesDescription", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_Search {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.Search", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_ShowPresetFlags {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.ShowPresetFlags", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_Warning_Back {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.Warning.Back", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_Warning_Continue {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.Warning.Continue", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_Warning_Header {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.Warning.Header", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagEditor_Warning_Text {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagEditor.Warning.Text", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagProfiles_Save {
+            get {
+                return ResourceManager.GetString("Menu_FastFlagProfiles_Save", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Editor_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Editor.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Help_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Help.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_ManagerEnabled_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.ManagerEnabled.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_ManagerEnabled_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.ManagerEnabled.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_D3DExclusiveFullscreenInfo {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.D3DExclusiveFullscreenInfo", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_FixDisplayScaling_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.FixDisplayScaling.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_FixDisplayScaling_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.FixDisplayScaling.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_GraySky_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.GraySky.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_GraySky_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.GraySky.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_LowPolyMeshes_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.LowPolyMeshes.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_LowPolyMeshes_Information {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.LowPolyMeshes.Information", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_LowPolyMeshes_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.LowPolyMeshes.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_MSAA_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.MSAA.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_MSAA_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.MSAA.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_OverrideGraphicQuality_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.OverrideGraphicQuality.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_OverrideGraphicQuality_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.OverrideGraphicQuality.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_PauseVoxelizer_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.PauseVoxelizer.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_PauseVoxelizer_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.PauseVoxelizer.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_RemoveGrass_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.RemoveGrass.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_RemoveGrass_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.RemoveGrass.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_RenderingMode_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.RenderingMode.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Presets_RenderingMode_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Presets.RenderingMode.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Reset_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Reset.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlags_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlags.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagsEditor_AdvancedSettings_AltManually_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagsEditor.AdvancedSettings.AltManually.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagsEditor_AdvancedSettings_AltManually_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagsEditor.AdvancedSettings.AltManually.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagsEditor_AdvancedSettings_CopyFormat_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagsEditor.AdvancedSettings.CopyFormat.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagsEditor_AdvancedSettings_CopyFormat_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagsEditor.AdvancedSettings.CopyFormat.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagsEditor_AdvancedSettings_CtrlC_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagsEditor.AdvancedSettings.CtrlC.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagsEditor_AdvancedSettings_CtrlC_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagsEditor.AdvancedSettings.CtrlC.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagsEditor_AdvancedSettings_PresetColumn_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagsEditor.AdvancedSettings.PresetColumn.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagsEditor_AdvancedSettings_PresetColumn_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagsEditor.AdvancedSettings.PresetColumn.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagsEditor_AdvancedSettings_ToggleFlagCount_Description {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagsEditor.AdvancedSettings.ToggleFlagCount.Description", resourceCulture);
+            }
+        }
+        public static string Menu_FastFlagsEditor_AdvancedSettings_ToggleFlagCount_Title {
+            get {
+                return ResourceManager.GetString("Menu.FastFlagsEditor.AdvancedSettings.ToggleFlagCount.Title", resourceCulture);
+            }
+        }
+        public static string Menu_FlagProfiles_ClearFlags {
+            get {
+                return ResourceManager.GetString("Menu.FlagProfiles.ClearFlags", resourceCulture);
+            }
+        }
+        public static string Menu_FlagProfiles_Description {
+            get {
+                return ResourceManager.GetString("Menu_FlagProfiles_Description", resourceCulture);
+            }
+        }
+        public static string Menu_FlagProfiles_Title {
+            get {
+                return ResourceManager.GetString("Menu_FlagProfiles_Title", resourceCulture);
+            }
+        }
+        public static string Menu_FontFiles {
+            get {
+                return ResourceManager.GetString("Menu.FontFiles", resourceCulture);
+            }
+        }
+        public static string Menu_Froststrap_Analytics_Description {
+            get {
+                return ResourceManager.GetString("Menu.Froststrap.Analytics.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Froststrap_Analytics_Title {
+            get {
+                return ResourceManager.GetString("Menu.Froststrap.Analytics.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Froststrap_Description {
+            get {
+                return ResourceManager.GetString("Menu.Froststrap.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Froststrap_ExportData_Description {
+            get {
+                return ResourceManager.GetString("Menu.Froststrap.ExportData.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Froststrap_ExportData_ExportConfig {
+            get {
+                return ResourceManager.GetString("Menu.Froststrap.ExportData.ExportConfig", resourceCulture);
+            }
+        }
+        public static string Menu_Froststrap_ExportData_ExportLogs {
+            get {
+                return ResourceManager.GetString("Menu.Froststrap.ExportData.ExportLogs", resourceCulture);
+            }
+        }
+        public static string Menu_Froststrap_ExportData_Title {
+            get {
+                return ResourceManager.GetString("Menu.Froststrap.ExportData.Title", resourceCulture);
+            }
+        }
+        public static string Menu_GBSEditor_Description {
+            get {
+                return ResourceManager.GetString("Menu.GBSEditor.Description", resourceCulture);
+            }
+        }
+        public static string Menu_GBSEditor_ReadOnly_Description {
+            get {
+                return ResourceManager.GetString("Menu.GBSEditor.ReadOnly.Description", resourceCulture);
+            }
+        }
+        public static string Menu_GBSEditor_ReadOnly_Title {
+            get {
+                return ResourceManager.GetString("Menu.GBSEditor.ReadOnly.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Help_Title {
+            get {
+                return ResourceManager.GetString("Menu.Help.Title", resourceCulture);
+            }
+        }
+        public static string Menu_IconFiles {
+            get {
+                return ResourceManager.GetString("Menu.IconFiles", resourceCulture);
+            }
+        }
+        public static string Menu_InstallLocation_CantInstall {
+            get {
+                return ResourceManager.GetString("Menu.InstallLocation.CantInstall", resourceCulture);
+            }
+        }
+        public static string Menu_InstallLocation_NotEmpty {
+            get {
+                return ResourceManager.GetString("Menu.InstallLocation.NotEmpty", resourceCulture);
+            }
+        }
+        public static string Menu_InstallLocation_NotSet {
+            get {
+                return ResourceManager.GetString("Menu.InstallLocation.NotSet", resourceCulture);
+            }
+        }
+        public static string Menu_InstallLocation_NoWritePerms {
+            get {
+                return ResourceManager.GetString("Menu.InstallLocation.NoWritePerms", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_ActivityTracking {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.ActivityTracking", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_AllowActivityJoining_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.AllowActivityJoining.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_AllowActivityJoining_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.AllowActivityJoining.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_BlockCardExpander_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.BlockCardExpander.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_BlockCardExpander_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.BlockCardExpander.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_BlockScreenShots_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.BlockScreenShots.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_BlockScreenShots_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.BlockScreenShots.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_BlockVideoRecording_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.BlockVideoRecording.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_BlockVideoRecording_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.BlockVideoRecording.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_AppLocation {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.AppLocation", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_AutoClose {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.AutoClose", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_AutoCloseOnGame {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.AutoCloseOnGame", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_GameID {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.GameID", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_LaunchArgs {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.LaunchArgs", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_LaunchArgs_Placeholder {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.LaunchArgs.Placeholder", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_NewIntegration {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.NewIntegration", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_NoneSelected {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.NoneSelected", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_SpecifyGame {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.SpecifyGame", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Custom_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Custom.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_CustomStatusDisplay_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.CustomStatusDisplay.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_CustomStatusDisplay_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.CustomStatusDisplay.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_DesktopApp_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.DesktopApp.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_DesktopApp_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.DesktopApp.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_DoubleClickAction_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.DoubleClickAction.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_DoubleClickAction_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.DoubleClickAction.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_EnableActivityTracking_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.EnableActivityTracking.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_EnableActivityTracking_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.EnableActivityTracking.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_FroststrapRPC_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.FroststrapRPC.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_FroststrapRPC_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.FroststrapRPC.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_GameHistory_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.GameHistory.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_GameHistoryMenu_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.GameHistoryMenu.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_GameHistoryMenu_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.GameHistoryMenu.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_PlayerMessageLogs_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.PlayerMessageLogs.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_PlayerMessageLogs_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.PlayerMessageLogs.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_PlaytimeCounter_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.PlaytimeCounter.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_PlaytimeCounter_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.PlaytimeCounter.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_QueryServerLocation_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.QueryServerLocation.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_QueryServerLocation_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.QueryServerLocation.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_QueryServerUptime_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.QueryServerUptime.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_QueryServerUptime_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.QueryServerUptime.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_RequiresActivityTracking {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.RequiresActivityTracking", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_ShowAccountOnProfile_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.ShowAccountOnProfile.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_ShowAccountOnProfile_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.ShowAccountOnProfile.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_ShowGameActivity_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.ShowGameActivity.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_ShowGameActivity_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.ShowGameActivity.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Integrations_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Load {
+            get {
+                return ResourceManager.GetString("Menu.Load", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Help_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Help.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CardExpander_CustomCursors_Descriptions {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CardExpander.CustomCursors.Descriptions", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CardExpander_CustomCursors_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CardExpander.CustomCursors.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CompatibilitySettings_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CompatibilitySettings.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CompatibilitySettings_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CompatibilitySettings.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursor_Choose {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursor.Choose", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursor_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursor.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursor_Remove {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursor.Remove", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursor_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursor.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursorSet_ApplySet {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursorSet.ApplySet", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursorSet_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursorSet.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursorSet_ExportSet {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursorSet.ExportSet", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursorSet_FetchSet {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursorSet.FetchSet", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursorSet_ImportSet {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursorSet.ImportSet", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursorSet_NoneSelected {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursorSet.NoneSelected", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomCursorSet_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomCursorSet.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomDeathSound_Choose {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomDeathSound.Choose", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomDeathSound_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomDeathSound.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomDeathSound_Remove {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomDeathSound.Remove", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomDeathSound_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomDeathSound.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomFont_Choose {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomFont.Choose", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomFont_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomFont.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomFont_Invalid {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomFont.Invalid", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomFont_Remove {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomFont.Remove", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomFont_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomFont.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomShiftLock_Choose {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomShiftLock.Choose", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomShiftLock_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomShiftLock.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomShiftLock_Remove {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomShiftLock.Remove", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Misc_CustomShiftLock_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Misc.CustomShiftLock.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_AddGradientColor {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.AddGradientColor", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_GenerationOptions {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.GenerationOptions", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_GenerationOptions_Cursor {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.GenerationOptions.Cursor", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_GenerationOptions_EmoteWheel {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.GenerationOptions.EmoteWheel", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_GenerationOptions_Shiftlock {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.GenerationOptions.Shiftlock", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_GenerationOptions_VoiceChat {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.GenerationOptions.VoiceChat", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_GradientAngle {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.GradientAngle", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_GradientColors {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.GradientColors", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_QuickActions {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.QuickActions", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_QuickActions_CopyToModsFolder {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.QuickActions.CopyToModsFolder", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_QuickActions_GenerateMod {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.QuickActions.GenerateMod", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_RobloxLOGO {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.RobloxLOGO", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_SheetPreview {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.SheetPreview", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_SheetPreviewSingle {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.SheetPreviewSingle", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_Spinner {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.Spinner", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_ModGenerator_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.ModGenerator.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_OpenModsFolder_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.OpenModsFolder.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_OpenModsFolder_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.OpenModsFolder.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_EmojiType_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.EmojiType.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_EmojiType_Error {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.EmojiType.Error", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_EmojiType_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.EmojiType.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_MouseCursor_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.MouseCursor.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_MouseCursor_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.MouseCursor.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_OldAvatarEditor_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.OldAvatarEditor.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_OldAvatarEditor_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.OldAvatarEditor.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_OldCharacterSounds_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.OldCharacterSounds.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_OldCharacterSounds_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.OldCharacterSounds.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_OldDeathSound_Description {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.OldDeathSound.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Presets_OldDeathSound_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Presets.OldDeathSound.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Mods_Title {
+            get {
+                return ResourceManager.GetString("Menu.Mods.Title", resourceCulture);
+            }
+        }
+        public static string Menu_MoreInfo {
+            get {
+                return ResourceManager.GetString("Menu.MoreInfo", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_ClearServerList {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.ClearServerList", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_Description {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.Description", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_FindGame {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.FindGame", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_LoadMore {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.LoadMore", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_Region {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.Region", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_Servers_Join {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.Servers.Join", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_Servers_Players {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.Servers.Players", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_Servers_Region {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.Servers.Region", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_Servers_ServerID {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.Servers.ServerID", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_Servers_ServerUptime {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.Servers.ServerUptime", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_ServerSize {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.ServerSize", resourceCulture);
+            }
+        }
+        public static string Menu_RegionSelector_Title {
+            get {
+                return ResourceManager.GetString("Menu.RegionSelector.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Restart {
+            get {
+                return ResourceManager.GetString("Menu.Restart", resourceCulture);
+            }
+        }
+        public static string Menu_RobloxSettings_Title {
+            get {
+                return ResourceManager.GetString("Menu.RobloxSettings.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Save {
+            get {
+                return ResourceManager.GetString("Menu.Save", resourceCulture);
+            }
+        }
+        public static string Menu_SaveAndLaunch {
+            get {
+                return ResourceManager.GetString("Menu.SaveAndLaunch", resourceCulture);
+            }
+        }
+        public static string Menu_SettingsSaved_Message {
+            get {
+                return ResourceManager.GetString("Menu.SettingsSaved.Message", resourceCulture);
+            }
+        }
+        public static string Menu_SettingsSaved_Title {
+            get {
+                return ResourceManager.GetString("Menu.SettingsSaved.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcut_GameShortcut_Create {
+            get {
+                return ResourceManager.GetString("Menu.Shortcut.GameShortcut.Create", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcut_GameShortcut_Description {
+            get {
+                return ResourceManager.GetString("Menu.Shortcut.GameShortcut.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcut_GameShortcut_Empty {
+            get {
+                return ResourceManager.GetString("Menu.Shortcut.GameShortcut.Empty", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcut_GameShortcut_GameIcon {
+            get {
+                return ResourceManager.GetString("Menu.Shortcut.GameShortcut.GameIcon", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcut_GameShortcut_Title {
+            get {
+                return ResourceManager.GetString("Menu.Shortcut.GameShortcut.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcuts_Description {
+            get {
+                return ResourceManager.GetString("Menu.Shortcuts.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcuts_ExtractIcons_Description {
+            get {
+                return ResourceManager.GetString("Menu.Shortcuts.ExtractIcons.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcuts_ExtractIcons_Title {
+            get {
+                return ResourceManager.GetString("Menu.Shortcuts.ExtractIcons.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcuts_Function_Description {
+            get {
+                return ResourceManager.GetString("Menu.Shortcuts.Function.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcuts_Function_Title {
+            get {
+                return ResourceManager.GetString("Menu.Shortcuts.Function.Title", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcuts_General_Description {
+            get {
+                return ResourceManager.GetString("Menu.Shortcuts.General.Description", resourceCulture);
+            }
+        }
+        public static string Menu_Shortcuts_General_Title {
+            get {
+                return ResourceManager.GetString("Menu.Shortcuts.General.Title", resourceCulture);
+            }
+        }
+        public static string Menu_TestMode {
+            get {
+                return ResourceManager.GetString("Menu.TestMode", resourceCulture);
+            }
+        }
+        public static string Menu_TestMode_Prompt {
+            get {
+                return ResourceManager.GetString("Menu.TestMode.Prompt", resourceCulture);
+            }
+        }
+        public static string Menu_Title {
+            get {
+                return ResourceManager.GetString("Menu.Title", resourceCulture);
+            }
+        }
+        public static string Menu_UnsavedChanges {
+            get {
+                return ResourceManager.GetString("Menu.UnsavedChanges", resourceCulture);
+            }
+        }
+        public static string Paths_Icons {
+            get {
+                return ResourceManager.GetString("Paths.Icons", resourceCulture);
+            }
+        }
+        public static string Uninstaller_KeepData_Description {
+            get {
+                return ResourceManager.GetString("Uninstaller.KeepData.Description", resourceCulture);
+            }
+        }
+        public static string Uninstaller_KeepData_Label {
+            get {
+                return ResourceManager.GetString("Uninstaller.KeepData.Label", resourceCulture);
+            }
+        }
+        public static string Uninstaller_Text {
+            get {
+                return ResourceManager.GetString("Uninstaller.Text", resourceCulture);
+            }
+        }
+        public static string Uninstaller_Title {
+            get {
+                return ResourceManager.GetString("Uninstaller.Title", resourceCulture);
+            }
+        }
+        public static string Uninstaller_Uninstall {
+            get {
+                return ResourceManager.GetString("Uninstaller.Uninstall", resourceCulture);
+            }
+        }
+    }
+}

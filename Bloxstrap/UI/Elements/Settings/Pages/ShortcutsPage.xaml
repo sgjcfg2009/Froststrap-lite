@@ -1,0 +1,30 @@
+<ui:UiPage x:Class="Bloxstrap.UI.Elements.Settings.Pages.ShortcutsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:models="clr-namespace:Bloxstrap.UI.ViewModels"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      xmlns:resources="clr-namespace:Bloxstrap.Resources"
+      xmlns:controls="clr-namespace:Bloxstrap.UI.Elements.Controls"
+      mc:Ignorable="d"
+      d:DesignHeight="1000" d:DesignWidth="800"
+      Title="ShortcutsPage"
+      Scrollable="True">
+
+    <StackPanel Margin="0,0,14,14">
+        <TextBlock Margin="0,0,0,16" Text="{x:Static resources:Strings.Menu_Shortcuts_Description}" FontSize="14" Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
+
+        <controls:OptionControl 
+            Header="Roblox Player Shortcut" 
+            Description="Create a direct shortcut to launch Roblox Player using Froststrap.">
+            <ui:Button Content="Create Shortcut" Command="{Binding CreatePlayerShortcutCommand, Mode=OneTime}" Width="140" />
+        </controls:OptionControl>
+
+        <controls:OptionControl 
+            Header="Roblox Studio Shortcut" 
+            Description="Create a direct shortcut to launch Roblox Studio using Froststrap.">
+            <ui:Button Content="Create Shortcut" Command="{Binding CreateStudioShortcutCommand, Mode=OneTime}" Width="140" />
+        </controls:OptionControl>
+    </StackPanel>
+</ui:UiPage>
